@@ -4,7 +4,8 @@ html {
 
 body {
   font-family: 'Montserrat', sans-serif;
-  color: #111111; }
+  color: #111111;
+  background: #f5f5f5; }
 
 @font-face {
   font-family: "Perpetua";
@@ -13,9 +14,7 @@ body {
 .mp-encabezado {
   background: #FFFFFF;
   color: #111111;
-  padding: .8rem 0;
-  margin-top: 1rem;
-  margin-bottom: 1rem; }
+  padding: 1.5rem 0; }
 
 .mp-encabezado .container {
   display: flex;
@@ -58,7 +57,7 @@ body {
   color: #B10000; }
 
 .mp-welcome {
-  background: url("../images/slide02.jpg") center/cover;
+  background: url("../images/slide01.jpg") center/cover;
   background-attachment: fixed !important;
   position: relative;
   height: 100vh;
@@ -86,11 +85,18 @@ body {
   position: relative;
   top: 300px; }
 
+.welcome {
+  margin-top: 2rem; }
+
+.rofl {
+  border-bottom: 1px solid #6e6e6e; }
+
 .info-title {
   margin-bottom: 1.5rem; }
 
 .info-school {
-  margin: 2rem 0 2rem 0; }
+  margin: 2rem 0 2rem 0;
+  font-family: 'Open Sans', sans-serif; }
 
 .button-effect {
   text-align: center; }
@@ -140,7 +146,10 @@ body {
   font-family: "Perpetua", serif;
   font-size: 2.5rem;
   text-align: center;
-  margin-top: 4rem; }
+  margin-top: 4rem;
+  background: #B10000;
+  color: white;
+  padding: 3rem 0; }
 
 .new-image {
   width: 100%;
@@ -149,9 +158,8 @@ body {
 .news {
   padding-top: 2rem;
   padding-bottom: 8rem;
-  background: #B10000;
   margin-top: 4rem;
-  color: #FFFFFF; }
+  color: #B10000; }
 
 .main-title {
   display: block;
@@ -228,6 +236,35 @@ body {
   .mp-encabezado .mp-logo img {
     width: 200px;
     height: auto; }
+  .read-more {
+    margin-top: 1.5rem; }
+  .detail2 {
+    padding-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center; }
+  .info-school {
+    margin: 0; }
+  .info-title {
+    font-weight: bold;
+    color: #535353; }
+  .mp-welcome .mp-main-text p {
+    color: white;
+    position: relative;
+    top: 200px;
+    margin: 0; }
+  .mp-welcome .mp-main-text h1 {
+    white-space: pre-line;
+    text-align: left;
+    top: 200px; } }
+
+@media (min-width: 1024px) {
+  .mp-encabezado .mp-logo img {
+    width: 240px;
+    height: auto; }
   #main-menu {
     height: auto !important;
     display: block;
@@ -246,14 +283,25 @@ body {
   #main-menu ul li a:hover {
     color: #B10000;
     border-bottom: 4px solid; }
-  .detail2 {
-    padding-left: 1rem;
+  .mp-welcome .mp-main-text h1 {
+    white-space: pre-line;
+    text-align: left;
+    font-size: 3rem;
+    top: 200px; }
+  .mp-welcome .mp-main-text p {
+    color: white;
+    position: relative;
+    top: 200px;
+    margin: 0;
+    font-size: 1.3rem; }
+  .motto {
+    padding: 5rem 0; }
+  .rofl2 {
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-content: center;
-    align-items: center; } }
+    justify-content: center;
+    align-items: center; }
+  .info-school {
+    font-size: 1.2rem; } }
 
 .loguito {
   width: 200px;
