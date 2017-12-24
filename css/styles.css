@@ -14,7 +14,7 @@ body {
 .mp-encabezado {
   background: #FFFFFF;
   color: #111111;
-  padding: 1.5rem 0; }
+  padding: 1rem 0 .8rem 0; }
 
 .mp-encabezado .container {
   display: flex;
@@ -261,9 +261,9 @@ body {
     text-align: left;
     top: 200px; } }
 
-@media (min-width: 1024px) {
+@media (min-width: 992px) {
   .mp-encabezado .mp-logo img {
-    width: 240px;
+    width: 220px;
     height: auto; }
   #main-menu {
     height: auto !important;
@@ -286,14 +286,14 @@ body {
   .mp-welcome .mp-main-text h1 {
     white-space: pre-line;
     text-align: left;
-    font-size: 3rem;
-    top: 200px; }
+    font-size: 2.8rem;
+    top: 300px; }
   .mp-welcome .mp-main-text p {
     color: white;
     position: relative;
-    top: 200px;
+    top: 300px;
     margin: 0;
-    font-size: 1.3rem; }
+    font-size: 1.2rem; }
   .motto {
     padding: 5rem 0; }
   .rofl2 {
